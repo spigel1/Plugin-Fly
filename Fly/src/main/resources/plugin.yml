@@ -1,0 +1,15 @@
+name: Fly
+version: '${project.version}'
+main: me.eranspigel.fly.Fly
+api-version: '1.20'
+
+commands:
+  fly:
+    description: This is a fly command
+    usage: /<command>
+
+permissions:
+
+  permissions.fly:
+    description: Allows someone to fly
+    default: op
